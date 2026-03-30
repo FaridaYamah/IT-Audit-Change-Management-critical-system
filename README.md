@@ -1,15 +1,34 @@
 # 🔁 IT Audit Portfolio – Change Management Controls (Critical Production System)
 
-> 📌 SOX-aligned IT audit simulation focused on change control risks in a live production ERP environment. Includes findings on missing change artifacts, late approvals, and control gaps that could affect production stability.
+## 👩🏽‍💻 Author
+
+**Farida Yamah (Lulu)** 
+Data Analyst → IT Audit & GRC 
+
+🔗 [View My LinkedIn Profile](https://www.linkedin.com/in/farida-yamah-97a29123b)
+
+
+
+> 📌 This project simulates a SOX-aligned IT General Controls (ITGC) audit of change management within a critical production ERP environment.
+>     The objective was to evaluate whether changes to production systems are properly authorized, tested, and documented to prevent unauthorized or untested changes from impacting system integrity and financial reporting.
 
 ---
 
 ## 🔍 Executive Summary
 
-- ✅ 10 change controls tested in a **critical production ERP system**
-- ❌ Missing: Authorization Tickets, Test Plan Docs, Approval Emails
-- ⚠️ Risk of untested or unauthorized changes reaching production
-- 🛠️ Includes RCM, audit report, testing workbook, risk matrix
+- ✅ 10 Key change management controls tested in a critical production ERP environment
+- ❌ Identified control deficiencies:
+-  Missing Authorization Tickets
+-  Lack of test Plan documentation
+-  Missing approval evidence
+- ⚠️ **Risk Exposure:** 
+- untested or unauthorized changes may be migrated to production, increasing the risk of system instability, data integrity issue, and potential financial misstatment.
+- 
+- 🛠️ Artifacts included:
+- Risk & Control Matrix (RCM)
+- Audit report
+- Testing workbook
+- Risk matrix
 
 ---
 
@@ -25,40 +44,48 @@
 
 ---
 
-## 🧪 Methodology
+## 🧪 Audit Methodology
 
-- Reviewed change control policies & workflows  
-- Walkthrough with release manager & change coordinator  
-- Selected 10 production changes for test of operating effectiveness  
-- Checked for ticket #, approval email, test plan, and deployment evidence
-
+- Conducted walkthroughs with change managers and release coordinators to understand the change management process  
+- Reviewed change management policies and control procedures
+- Selected a sample of production changes for testing  
+- Performed Test of Design (TOD) and Test of Operating Effectiveness (TOE)
+- Inspected supporting evidence including:
+  - Change tickets
+  - Test plans
+  - Deployment documentation
+  - 
 ---
 
 ## 🚨 Key Findings
 
-### 1. ❌ Missing Authorization Tickets  
-- **Risk:** Unauthorized changes deployed to production  
-- **Fix:** Make ticket entry mandatory before release
+### 1. ❌ Missing Authorization Tickets 
+   **Risk Rating** High
+- **Impact:** Changes may be deployed to production without proper authorization, increasing the risk of unauthorized system modifications.
+- **Recommendation** Enforce mandatory creation and approval of change tickets prior to deployment.
 
-### 2. ❌ No Test Plan Documentation  
-- **Risk:** Unvalidated code moved to live environment  
-- **Fix:** Enforce upload of test plans in change record
 
-### 3. ❌ Missing Approval Emails  
-- **Risk:** No evidence of managerial sign-off  
-- **Fix:** Require attached email or approval workflow record
+### 2. ❌ No Test Plan Documentation 
+- **Risk Rating:** High
+- **Impact:** Changes may be deployed without adequate testing, increasing the risk of system failures or data integrity issues.
+- **Recommendation** Require documented test plans and evidence of successful testing  before migration to production. 
+
+### 3. ❌ Missing Approval Evidence  
+- **Risk Rating:** Medium
+- **Impact:** Lack of documented approvals reduces accountability and increases the risk of unauthorized changes.
+- **Recommendation:** Implement enforced approval workflows with auditable approval records.
 
 ---
 
 ## 📂 Repository Files
 
-| File | Description |
+| File | Purpose |
 |------|-------------|
-| 📄 `ChangeMgmt_Audit_Report.docx` | Final report and findings |
-| 📊 `ChangeMgmt_RCM.xlsx` | Risk & Control Matrix |
-| 📈 `Risk_Matrix.pdf` | Control severity & remediation |
-| 🧪 `Test_Results_Workbook.xlsx` | Pass/Fail + exception tracking |
-| 📁 `Evidence/` (Optional) | Redacted change tickets, emails, test docs |
+| 📄 `ChangeMgmt_Audit_Report.docx` | Final audit report with findings and recommendations |
+| 📊 `ChangeMgmt_RCM.xlsx` | Risk & Control Matrix mapping risks, controls, and test procedures|
+| 📈 `Risk_Matrix.pdf` | Risk severity & prioritization |
+| 🧪 `Test_Results_Workbook.xlsx` | Detailed control testing results (pass/fail and exceptions) |
+| 📁 `Evidence/`  | Supporting audit evidence (redacted) |
 
 ---
 
